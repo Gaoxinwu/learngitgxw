@@ -7,3 +7,4 @@ Creating a new branch is quick.
 git add把文件添加进去，实际上就是把文件修改添加到暂存区；
 git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
 我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改。
+Git跟踪并管理的是修改，而非文件。

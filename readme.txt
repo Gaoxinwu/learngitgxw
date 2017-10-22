@@ -4,4 +4,6 @@ Git has a mutable index called stage.
 Git tracks changes of files.
 分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！
 Creating a new branch is quick.
-Git tracks changes of files;
+git add把文件添加进去，实际上就是把文件修改添加到暂存区；
+git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
+我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改。
